@@ -80,7 +80,7 @@ def main(stdscr):
     j += 4
     notifs.addstr(j, 0, "THIS IS A BETA VERSION OF THE CENTRAL COMMAND MODULE (CCM). PLEASE REPORT ANY AND ALL MODULE INSTABILITY TO THE RELEVANT DEVELOPERS.", home)
     j += 7
-    notifs.addstr(j, 0, fr"PELASE REFER TO THE CCM USER MANUAL FOR FULL DOCUMENTATION, LOCATED AT {path}\DOCUMENTATION.TXT", home)
+    notifs.addstr(j, 0, fr"PELASE REFER TO THE CCM USER MANUAL FOR FULL DOCUMENTATION, LOCATED AT path\DOCUMENTATION.TXT", home)
     notifs.refresh()
     printed = [taskN]
 
